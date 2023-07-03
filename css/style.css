@@ -1,0 +1,97 @@
+.myform{
+    width: 520px;
+    height: 445px;
+    margin: 150px auto;
+    border-radius: 5px;
+    /* background-image:linear-gradient(direction ,color-stop1,color-stop2,....);*/
+    background-image: -webkit-linear-gradient(top,#3b3b3b,#373737);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.myform div{
+    color: #fff;
+    font-size: 1.6em;
+    height: 77px;
+    text-align: center;
+    line-height: 77px;
+    border-bottom: 1px solid #1b1b1b;
+    text-shadow: 0px -2px 1px rgba(0, 0,0,0.5);
+    margin-bottom: 41px;
+}
+.myform > input{
+    display: block;
+    width: 86%;
+    height: 38px;
+    border-radius: 50px;
+    margin: 7px auto;
+    background-image: -webkit-linear-gradient(top,#b1b1b1,#d7d7d7);
+    border: none;
+    box-shadow: 0px 1px 1px 1px #5b595a;
+    padding-left: 43px;
+
+}
+input:focus{
+    outline: none;
+}
+.tnc{
+    margin-top: -30px !important;
+    margin-bottom: 0px !important;
+}
+.tnc a{
+    text-decoration: none;
+}
+span{
+    font-size: 0.6em;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: yellowgreen;
+}
+.space{
+    font-size: 0.6em;
+    color: #fff;
+}
+input[type="submit"]{
+    width: 250px;
+    height: 48px;
+    float: right;
+    border-radius: 50px;
+    color: black;
+    background: yellowgreen;
+    padding: 0px;
+    margin-right: 15px;
+    margin-top: 20px;
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+.b1{
+    background-image: url("../img/1.png") !important;
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: 10px center;
+    width: 20px;
+    height: 20px;
+}
+.b2{
+    background-image: url("../img/2.png") !important;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 10px center;
+    width: 20px;
+    height: 20px;
+}
+.b3{
+    background-image: url("../img/3.png") !important;
+    background-repeat: no-repeat;
+    background-size: 55px;
+    background-position: -1px center;
+    width: 40px;
+    height: 40px;
+}
+.b4{
+    background-image: url("../img/4.png") !important;
+    background-repeat: no-repeat;
+    background-size: 55px;
+    background-position: -1px center;
+    width: 20px;
+    height: 20px;
+}
